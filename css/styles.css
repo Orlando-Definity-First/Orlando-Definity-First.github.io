@@ -146,6 +146,19 @@ h1 {
     padding-bottom: 76px;
     background: linear-gradient(90deg, #002154 0%, #005EB8 100%);
 }
+.benefitsBg.thankyou {
+    margin-top: 0;
+    padding-top: 126px;
+    padding-bottom: 174px;
+    background: linear-gradient(90deg, #002154 0%, #005EB8 100%);
+}
+.benefitsText a,
+.benefitsText a:visited,
+.benefitsText a:active,
+.benefitsText a:link {
+    color: #00A4E4 !important;
+}
+.benefitsMainTitle h1, 
 .benefitsBg h2 {
     font-family: 'Kaneda Gothic';
     font-style: normal;
