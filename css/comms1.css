@@ -171,6 +171,25 @@ header {
     background-color: #00A7E1;
 }
 
+.disclaimer {
+    padding-top: 45px;
+    padding-bottom: 54px;
+}
+
+.disclaimer.line {
+    border-top: 2px solid  #ffffff;
+}
+.disclaimer p {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /* -- Footer styles -- */
 footer {
     padding-bottom: 93px;
