@@ -46,7 +46,7 @@
                 </p>
             </div>
             <div class="videoColumn">
-                <iframe src="https://player.vimeo.com/video/678942687?h=f3705637db"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>                
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/678942687?h=f3705637db&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
         </div>
     </section>
@@ -174,7 +174,34 @@
         </div>
     </footer>
 
+<style>
+    
+</style>
 
+<div class="testSiteContainer hidden" role="alert">
+    <h4 class="">Test Site</h4>
+    <p>This site is for testing purposes, please do not use this site for logging in to IamResponding.</p>
+    <hr/>
+    <p class="">
+      Click <a href="#" class="">here</a> to login to the correct website.
+    </p>
+</div>
+
+<script>
+    let containeru = document.createElement('div');
+    containeru.classList.add('testSiteContainer');
+    containeru.innerHTML = `
+    <h4 class=""><strong>Test Site</strong></h4>
+    <p>This site is for testing purposes, please do not use this site for logging in to IamResponding.</p>
+    <hr/>
+    <p class="">
+      Click <a href="${location}" class="">here</a> to login to the correct website.
+    </p>
+    `;
+
+    document.getElementsByTagName('body')[0].appendChild(containeru);
+
+</script>
 
 
     
